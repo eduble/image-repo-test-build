@@ -1,3 +1,3 @@
-FROM waltplatform/rpi-debian:latest
+FROM waltplatform/pc-x86-64-test-suite:latest
 ADD testfile /root
-RUN echo file2 > /root/testfile2
+RUN echo OK > /root/test-result
